@@ -2,3 +2,4 @@
 
 ## Version 1.0
 - Mobile version ready
+- First design
