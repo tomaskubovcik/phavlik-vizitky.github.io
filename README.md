@@ -1,1 +1,4 @@
-# phavlik-vizitky.github.io
+# phavlik-vizitky.github.io WEB
+
+##Version 1.0
+Mobile version ready
