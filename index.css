@@ -38,15 +38,25 @@ p {
     font-size: 5vw;
 }
 
-@media (max-width: 599px) {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Default for phone */
     .boxprofile {
+        background-image: url(cfmoto.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
         height: auto;
         width: 25vw;
         background-color: #bbb;
         border-radius: 50%;
         position: absolute;
         margin-left: 37.5vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
+        justify-items: center;
+        align-items: center;
     }
 
     .boxprofile::after {
@@ -56,9 +66,9 @@ p {
     }
     
     .backbox {
-        height: 90vh;
+        height: 85vh;
         width: 100vw;
-        padding-top: 10vh;
+        padding-top: 15vh;
         background: rgb(250, 250, 250);
     }
     
@@ -96,9 +106,8 @@ p {
     }
 
     .iconslink a img {
-        width: 12vw;
+        width: 16vw;
         height: auto;
-        
     }
 
     .bottominfo {
@@ -116,12 +125,134 @@ p {
         padding-top: 0.5vh;
     }
 
-}
+    .BI1 a p{
+        font-size: 4.5vw;
+    }
+
+/* END */
 
 @media (min-width: 600px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+
+    .boxprofile {
+        height: auto;
+        width: 20vw;
+        background-color: #bbb;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 40vw;
+        margin-top: 8vh;
+    }
     
+    .backbox {
+        height: 85vh;
+        width: 100vw;
+        padding-top: 15vh;
+        
+    }
+    
+    .boxcontact {
+        margin-left: 5vw;
+        height: 45vh;
+        width: 90vw;
+    }
+
+    .iconslink a img {
+        width: 10vw;
+        height: auto;
+    }
+
+    .BI0, .BI1, .BI2 {
+        padding-top: 1vh;
+    }
+
+    .BI0 p, .BI1 p, .BI2 p{
+        padding-top: 0.5vh;
+    }
+
+    .BI1 a p{
+        font-size: 4vw;
+    }
+
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
+    h1 {
+        font-size: 3vw;
+    }
+
+    .boxcontact h2 {
+        font-size: 1.5vw;
+    }
+
+    h2 {
+        font-size: 1vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+
+    .boxprofile {
+        height: auto;
+        width: 8vw;
+        background-color: #bbb;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 46vw;
+        margin-top: 8vh;
+    }
     
+    .backbox {
+        height: 85vh;
+        width: 100vw;
+        padding-top: 15vh;
+        
+    }
+    
+    .boxcontact {
+        margin-left: 30vw;
+        height: 45vh;
+        width: 40vw;
+        
+    }
+
+    .iconslink a img {
+        width: 5vw;
+        height: auto;
+    }
+
+    .bottominfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2vh;
+        padding-left: 0;
+    }
+    
+    .BI0, .BI1, .BI2 {
+        padding-top: 2vh;
+        text-align: center;
+    }
+
+    .BI0 p, .BI1 p, .BI2 p{
+        padding-top: 0.5vh;
+    }
+
+    .BI1 a p{
+        font-size: 1.5vw;
+    }
+
 }
