@@ -1,6 +1,6 @@
 # phavlik-vizitky.github.io WEB
 
-## Version 1.1 [Unreleased]
+## Version 1.1 [03.07.2023]
 - Desktop and tablet design
 
 ## Version 1.0 [02.07.2023]
