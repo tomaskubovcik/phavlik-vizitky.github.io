@@ -1,3 +1,8 @@
+/*
+HTML/CSS v1.1 Revision 18.04.2025
+© 2025 Tomas Kubovcik, All rights reserved. 
+*/
+
 /* Reset CSS*/
 
 html, body, div, span, applet, object, iframe,
@@ -96,6 +101,10 @@ a {
         margin-top: 0.5vh;
     }
 
+    .BC2 {
+        margin-top: 0.5vh;
+    }
+
     .iconslink {
         padding-top: 10vh;
         
@@ -113,7 +122,7 @@ a {
     .bottominfo {
         display: flex;
         flex-direction: column;
-        padding-top: 5vh;
+        padding-top: 1vh;
         padding-left: 3vw;
     }
 
@@ -123,10 +132,12 @@ a {
 
     .BI0 p, .BI1 p, .BI2 p{
         padding-top: 0.5vh;
+        
     }
 
     .BI1 a p{
-        font-size: 4.5vw;
+        font-size: 3.6vw;
+        text-decoration: underline;
     }
 
 /* END */
@@ -182,18 +193,18 @@ a {
     }
 
     .BI1 a p{
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
 }
 
 @media (min-width: 1080px) {
     h1 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .boxcontact h2 {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     h2 {
@@ -249,10 +260,11 @@ a {
 
     .BI0 p, .BI1 p, .BI2 p{
         padding-top: 0.5vh;
+        
     }
 
     .BI1 a p{
-        font-size: 1.5vw;
+        font-size: 0.8vw;
     }
 
 }
